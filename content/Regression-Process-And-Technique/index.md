@@ -1,7 +1,6 @@
 ---
 title: "Regression Process And Technique"
 date: "2020-07-10T16:51:00.000Z"
-category: "Selenium"
 tags:
   - "Regression Process"
   - "Selenium"
