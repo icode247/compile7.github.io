@@ -1,7 +1,6 @@
 ---
 title: "How To Test gRPC Server With Node JS"
 date: "2020-07-08T16:51:00.000Z"
-category: "gRPC"
 tags:
   - "gRPC"
 description: "

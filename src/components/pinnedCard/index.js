@@ -40,7 +40,6 @@ const PinnedCard = () => {
                       }
                     }
                   }
-                  category
                 }
                 fields {
                   slug
@@ -74,30 +73,6 @@ const PinnedCard = () => {
               </Link>
 
               <div className={styles.descriptionPinned}>
-                <div className={styles.breadcrumb}>
-                  <Link className="gh-breadcrumb-link" to="/">
-                    Products
-                  </Link>
-
-                  <svg viewBox="0 0 18 27" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M2.397 25.426l13.143-11.5-13.143-11.5"
-                      stroke-width="3"
-                      stroke="currentColor"
-                      fill="none"
-                      fill-rule="evenodd"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                  <Link
-                    to={`${BLOG_PATH}/category/${kebabCase(
-                      node.frontmatter.category
-                    )}`}
-                  >
-                    <strong>{node.frontmatter.category}</strong>{" "}
-                  </Link>
-                </div>
                 <h1>
                   <Link to={BLOG_PATH + node.fields.slug.toLowerCase()}>
                     {node.frontmatter.title || node.fields.slug}
