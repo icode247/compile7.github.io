@@ -97,12 +97,12 @@ const PinnedCard = () => {
                   </time>
                   <span className={styles.readingTime}>{5} min read</span>
                 </div>
-                {/* {node.frontmatter.author && (
+                {node.frontmatter.author && (
                   <Bio
                     date={node.frontmatter.date}
                     author={node.frontmatter.author}
                   />
-                )} */}
+                )}
               </div>
             </div>
           </section>

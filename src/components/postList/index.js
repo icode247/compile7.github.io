@@ -64,7 +64,7 @@ const PostList = ({ posts, hideBio }) => {
               </div>
             </div>
 
-            {/* {!hideBio && <Bio author={author} />} */}
+            {!hideBio && <Bio author={author} />}
           </article>
         )
       })}

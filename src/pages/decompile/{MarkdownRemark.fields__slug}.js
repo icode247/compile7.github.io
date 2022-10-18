@@ -77,7 +77,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 </a>
               </div>
 
-              {/* <Bio author={post.frontmatter.author} /> */}
+              <Bio author={post.frontmatter.author} />
             </div>
 
             <div class={styles.headerImage}>
