@@ -25,7 +25,6 @@ const BlogPostTemplate = ({ data, location }) => {
         <header className={styles.header}>
           <div class={`${styles.headerContainer} container`}>
             <div class={styles.headerContent}>
-
               <h1 class={styles.title}>{post.frontmatter.title}</h1>
 
               <div class={styles.headerMeta}>
@@ -78,7 +77,7 @@ const BlogPostTemplate = ({ data, location }) => {
                 </a>
               </div>
 
-              <Bio author={post.frontmatter.author} />
+              {/* <Bio author={post.frontmatter.author} /> */}
             </div>
 
             <div class={styles.headerImage}>
