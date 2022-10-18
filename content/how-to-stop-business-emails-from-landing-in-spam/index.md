@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Business Emails Marked as Spam? Here's What to Do"
 date: "2022-10-14"
 coverImage: improve-email-delivery.png
@@ -15,6 +16,11 @@ date: "2022-10-14"
 coverImage: improve-email-delivery.png
 >>>>>>> 4fbedf6 (Removed Category and added tags for menu)
 >>>>>>> c280f9171b5fe400e8d32445f0a43013ea6c4470
+=======
+title: "Email Delivery 101 for Developers"
+date: "2022-10-18"
+coverImage: improve-email-delivery.png
+>>>>>>> 7c468b9eb5ba31e2d7a8fafeeb096c5b89924d4d
 tags:
   - "Spam"
   - "Email Delivery"
@@ -22,6 +28,7 @@ description: "Are you worried about your business emails landing in spam? Read t
 author: "Deepak Gupta"
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Are you a business owner or email marketer constantly worried about business and transactional emails being delivered to users' spam folders or attackers launching man-in-middle attacks against your emails?
 
@@ -37,6 +44,11 @@ Are you a business owner or email marketer constantly worried about business and
 Well, worry no more. This article explains everything about how to land your business and marketing emails to users' inboxes rather than spam folders and fight against common attacks carried out, such as impersonation and man-in-the-middle attacks.
 >>>>>>> 4fbedf6 (Removed Category and added tags for menu)
 >>>>>>> c280f9171b5fe400e8d32445f0a43013ea6c4470
+=======
+Are you a developer responsible for email delivery and constantly worried about emails being delivered to users’ spam folders or attackers launching man-in-the-middle attacks against your emails?
+
+Well, worry no more. This article tells you everything about how to configure and land your transactional, business, and marketing emails to users' inboxes rather than spam folders and fight against common attacks like impersonation and man-in-the-middle.
+>>>>>>> 7c468b9eb5ba31e2d7a8fafeeb096c5b89924d4d
 
 The first and foremost step is to authenticate your domain and email, there are several methods and email standards that you can utilize. This article provides a deep understanding of such email standards like BIMI, SPF, DKIM, and DMARC to ensure that you send and receive only legitimate emails.
 
